@@ -1,0 +1,220 @@
+{
+  "roles": [
+    { "id": 1, "name": "user" },
+    { "id": 2, "name": "club_owner" },
+    { "id": 3, "name": "admin" }
+  ],
+
+  "memberships": [
+    { "id": 1, "name": "normal" },
+    { "id": 2, "name": "premium" }
+  ],
+
+  "admin": {
+    "id": 1,
+    "username": "visith",
+    "email": "samvisith.ios@gmail.com",
+    "password": "12345",
+    "status": "active",
+    "membershipId": 2
+  },
+  "club_owners": [
+    {
+      "id": 2,
+      "username": "Thai San",
+      "email": "thaisan@gmail.com",
+      "password": "12345",
+      "status": "active",
+      "membershipId": 2
+    },
+    {
+      "id": 3,
+      "username": "Rathanak",
+      "email": "rathanak@gmail.com",
+      "password": "12345",
+      "status": "active",
+      "membershipId": 2
+    }
+  ],
+
+  "clubs": [
+    {
+      "id": 1,
+      "name": "DownTown",
+      "description": "welcome to our sport club.",
+      "rating": 9.5,
+      "locationUrl": "411 US-70, Nashville, TN 37203, USA",
+      "imageUrl": "https://www.nowplayingnashville.com/wp-content/uploads/sites/www.nowplayingnashville.com/images/2019/04/downtownsportingclub.png",
+      "userId": 2
+    },
+    {
+      "id": 2,
+      "name": "Goal Sport",
+      "description": "welcome to our sport club.",
+      "rating": 9.7,
+      "locationUrl": "411 US-70, Nashville, TN 37203, USA",
+      "imageUrl": "https://www.nowplayingnashville.com/wp-content/uploads/sites/www.nowplayingnashville.com/images/2019/04/downtownsportingclub.png",
+      "userId": 3
+    }
+  ],
+  "pitches": [
+    {
+      "id": 1,
+      "name": "01",
+      "description": "new pitch with roof",
+      "size": "9vs9",
+      "sportClubId": 1
+    },
+    {
+      "id": 2,
+      "name": "02",
+      "description": "new pitch with roof",
+      "size": "6vs6",
+      "sportClubId": 1
+    },
+    {
+      "id": 3,
+      "name": "03",
+      "description": "new pitch with roof",
+      "size": "9vs9",
+      "sportClubId": 2
+    },
+    {
+      "id": 4,
+      "name": "04",
+      "description": "new pitch with roof",
+      "size": "6vs6",
+      "sportClubId": 2
+    }
+  ],
+
+  "week_parts_3": [
+    { "id": 1, "name": "Weekdays", "sportClubId": 1 },
+    { "id": 2, "name": "Sunday", "sportClubId": 1 },
+    { "id": 3, "name": "Saturday", "sportClubId": 1 },
+
+    { "id": 4, "name": "Weekdays", "sportClubId": 2 },
+    { "id": 5, "name": "Sunday", "sportClubId": 2 },
+    { "id": 6, "name": "Saturday", "sportClubId": 2 }
+  ],
+  "week_parts_2": [
+    { "id": 1, "name": "Weekdays", "sportClubId": 1 },
+    { "id": 2, "name": "Weekend", "sportClubId": 1 },
+
+    { "id": 3, "name": "Weekdays", "sportClubId": 2 },
+    { "id": 4, "name": "Weekend", "sportClubId": 2 }
+  ],
+
+  "day_parts": [
+    {
+      "id": 1,
+      "name": "Morning",
+      "start_time": "7:00:00",
+      "end_time": "11:00:00",
+      "sportClubId": 1
+    },
+    {
+      "id": 2,
+      "name": "Afternoon",
+      "start_time": "11:00:00",
+      "end_time": "15:00:00",
+      "sportClubId": 1
+    },
+    {
+      "id": 3,
+      "name": "Evening",
+      "start_time": "15:00:00",
+      "end_time": "19:00:00",
+      "sportClubId": 1
+    },
+    {
+      "id": 4,
+      "name": "Night",
+      "start_time": "19:00:00",
+      "end_time": "23:00:00",
+      "sportClubId": 1
+    },
+
+    {
+      "id": 5,
+      "name": "Morning",
+      "start_time": "7:00:00",
+      "end_time": "11:00:00",
+      "sportClubId": 2
+    },
+    {
+      "id": 6,
+      "name": "Afternoon",
+      "start_time": "11:00:00",
+      "end_time": "15:00:00",
+      "sportClubId": 2
+    },
+    {
+      "id": 7,
+      "name": "Evening",
+      "start_time": "15:00:00",
+      "end_time": "19:00:00",
+      "sportClubId": 2
+    },
+    {
+      "id": 8,
+      "name": "Night",
+      "start_time": "19:00:00",
+      "end_time": "23:00:00",
+      "sportClubId": 2
+    }
+  ],
+
+  "pitch_prices_3": [
+    { "id": 1, "price": 7, "weekPartId": 1, "dayPartId": 1 },
+    { "id": 2, "price": 8, "weekPartId": 1, "dayPartId": 2 },
+    { "id": 3, "price": 9, "weekPartId": 1, "dayPartId": 3 },
+    { "id": 4, "price": 10, "weekPartId": 1, "dayPartId": 4 },
+
+    { "id": 5, "price": 9, "weekPartId": 2, "dayPartId": 1 },
+    { "id": 6, "price": 10, "weekPartId": 2, "dayPartId": 2 },
+    { "id": 7, "price": 15, "weekPartId": 2, "dayPartId": 3 },
+    { "id": 8, "price": 20, "weekPartId": 2, "dayPartId": 4 },
+
+    { "id": 9, "price": 9, "weekPartId": 3, "dayPartId": 1 },
+    { "id": 10, "price": 11, "weekPartId": 3, "dayPartId": 2 },
+    { "id": 11, "price": 18, "weekPartId": 3, "dayPartId": 3 },
+    { "id": 12, "price": 22, "weekPartId": 3, "dayPartId": 4 },
+
+    { "id": 13, "price": 7, "weekPartId": 4, "dayPartId": 5 },
+    { "id": 14, "price": 8, "weekPartId": 4, "dayPartId": 6 },
+    { "id": 15, "price": 9, "weekPartId": 4, "dayPartId": 7 },
+    { "id": 16, "price": 10, "weekPartId": 4, "dayPartId": 8 },
+
+    { "id": 17, "price": 9, "weekPartId": 5, "dayPartId": 5 },
+    { "id": 18, "price": 10, "weekPartId": 5, "dayPartId": 6 },
+    { "id": 19, "price": 15, "weekPartId": 5, "dayPartId": 7 },
+    { "id": 20, "price": 20, "weekPartId": 5, "dayPartId": 8 },
+
+    { "id": 21, "price": 9, "weekPartId": 6, "dayPartId": 5 },
+    { "id": 22, "price": 11, "weekPartId": 6, "dayPartId": 6 },
+    { "id": 23, "price": 18, "weekPartId": 6, "dayPartId": 7 },
+    { "id": 24, "price": 22, "weekPartId": 6, "dayPartId": 8 }
+  ],
+  "pitch_prices_2": [
+    { "id": 1, "price": 7, "weekPartId": 1, "dayPartId": 1 },
+    { "id": 2, "price": 8, "weekPartId": 1, "dayPartId": 2 },
+    { "id": 3, "price": 9, "weekPartId": 1, "dayPartId": 3 },
+    { "id": 4, "price": 10, "weekPartId": 1, "dayPartId": 4 },
+
+    { "id": 5, "price": 9, "weekPartId": 2, "dayPartId": 1 },
+    { "id": 6, "price": 10, "weekPartId": 2, "dayPartId": 2 },
+    { "id": 7, "price": 15, "weekPartId": 2, "dayPartId": 3 },
+    { "id": 8, "price": 20, "weekPartId": 2, "dayPartId": 4 },
+
+    { "id": 9, "price": 7, "weekPartId": 3, "dayPartId": 5 },
+    { "id": 10, "price": 8, "weekPartId": 3, "dayPartId": 6 },
+    { "id": 11, "price": 9, "weekPartId": 3, "dayPartId": 7 },
+    { "id": 12, "price": 10, "weekPartId": 3, "dayPartId": 8 },
+
+    { "id": 13, "price": 9, "weekPartId": 4, "dayPartId": 5 },
+    { "id": 14, "price": 10, "weekPartId": 4, "dayPartId": 6 },
+    { "id": 15, "price": 15, "weekPartId": 4, "dayPartId": 7 },
+    { "id": 16, "price": 20, "weekPartId": 4, "dayPartId": 8 }
+  ]
+}

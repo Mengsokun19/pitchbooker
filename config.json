@@ -1,0 +1,15 @@
+{
+  "db": {
+    "DATABASE": "PitchBooker",
+    "HOST": "localhost",
+    "USERNAME": "sokun",
+    "PASSWORD": "password",
+    "DIALECT": "postgres"
+  },
+  "email_conf": {
+    "USERNAME": "mengsokun19@gamil.com",
+    "PASSWORD": "sokunmeng19",
+    "HOST": "smtp.gmail.com",
+    "PORT": 465
+  }
+}
